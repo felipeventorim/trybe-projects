@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* https://stackoverflow.com/questions/29147806/
+  how-can-i-set-the-image-opacity-for-body-background/29147887 */
+
+body:after {
+  content: '';
+  background: url('https://universoretro.com.br/wp-content/uploads/2020/09/super-mario-world.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin-top: 15px;
+  font-size: smaller;
+  text-align: center;
+}
+
+main {
+  width: 70%;
+  margin: 10px auto;
+}
+
+.container-list {
+  background-color: rgba(4 , 156 , 216 , 0.7);
+  border: 1px solid black;
+  border-radius: 2%;
+  padding: 25px;
+  margin-bottom: 15px;
+}
+
+#texto-tarefa {
+  margin-bottom: 10px;
+  width: 70%;
+  height: 20px;
+}
+
+li {
+  background-image: url('https://i.gifer.com/ZNec.gif');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px;
+  font-size: 20px;
+  list-style: none;
+  padding: 8px 0 8px 25px;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+#criar-tarefa {
+  background-color: rgb(251 , 208 , 0);
+  color: black;
+  display: inline-block;
+  height: 30px;
+  margin: 5px 10px;
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+}
+
+.save , .up-down , .remove {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.btn {
+  background-color: rgb(102 , 102 , 102);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px;
+  color: rgb(204 , 204 , 204);
+  display: inline-block;
+  height: 30px;
+  margin: 5px 10px;
+  text-decoration: none;
+  text-align: center;
+  width: 150px;
+}
+
+#mover-cima {
+  background-image: url('https://i.gifer.com/Xysh.gif');
+  background-position: left bottom;
+  padding-left: 15px;
+}
+
+#mover-baixo {
+  background-image: url('https://i.gifer.com/5UKF.gif');
+  padding-left: 15px;
+}
+
+#salvar-tarefas {
+  background-image: url('https://i.gifer.com/5RTB.gif');
+}
+
+.remove button {
+  background-image: url('https://i.gifer.com/WiCH.gif');
+  background-size: 30px;
+  width: 175px;
+}
+
+.btn:hover {
+  color: rgb(153 , 153 , 153);
+}
+
+#mover-cima:hover {
+  background-position: left top;
+}
