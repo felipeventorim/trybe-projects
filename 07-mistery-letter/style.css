@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+
+header {
+  background-color: #909090;
+  border-radius: 90%;
+}
+
+h1 {
+  color: blanchedalmond;
+  font-size: 64px;
+  margin: 20px;
+}
+
+input {
+  margin-right: 10px;
+  padding: 2px;
+}
+
+.gerar-carta p {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 10px 0;
+}
+
+button {
+  padding: 5px;
+  border-radius: 10%;
+  box-shadow: 2px 2px black;
+}
+
+button:hover {
+  background-color: black;
+  box-shadow: 2px 2px white;
+  color: aquamarine;
+}
+
+#carta-gerada {
+  margin: 20px 0;
+}
+
+.newspaper {
+  background-color: antiquewhite;
+  font-family: Times New Roman, Times, serif;
+  font-weight: 700;
+}
+
+.magazine1 {
+  background-color: teal;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.magazine2 {
+  background-image: url('images/pink-pattern.png');
+  color: fuchsia;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+}
+
+.medium {
+  font-size: 20px;
+  padding: 8px;
+}
+
+.big {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.reallybig {
+  font-size: 40px;
+  padding: 15px;
+}
+
+.rotateleft {
+  display: inline-block;
+  transform: rotate(-5deg);
+}
+
+.rotateright {
+  display: inline-block;
+  transform: rotate(5deg);
+}
+
+.skewleft {
+  display: inline-block;
+  transform: skewX(10deg);
+}
+
+.skewright {
+  display: inline-block;
+  transform: skewX(-10deg);
+}

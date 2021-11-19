@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+h1 {
+  margin: 25px 0;
+  text-decoration: underline;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.ball {
+  border: 1px solid black;
+  border-radius: 100%;
+  display: inline-block;
+  height: 50px;
+  margin: 10px 5px;
+  width: 50px;
+}
+
+.btn {
+  margin: 25px;
+}
