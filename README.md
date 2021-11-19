@@ -36,11 +36,11 @@ _There are more than 1500 hours of training that covers fundamentals of web deve
 
 ## Back-end Development :hourglass_flowing_sand:
 
-- [x] _[Project - All For One](modulo-2/01-all-for-one)_
-- [x] _[Project - Vocabulary Booster](modulo-2/02-vocabulary-booster)_
-- [x] _[Project - One For All](modulo-2/03-one-for-all)_
-- [x] _[Project - Docker Todo List](modulo-2/04-docker-todo-list)_
-- [x] _[Project - Mongodb Data Flights](modulo-2/05-mongodb-dataflights)_
+- [x] _[Project - All For One](modulo-3/01-all-for-one)_
+- [x] _[Project - Vocabulary Booster](modulo-3/02-vocabulary-booster)_
+- [x] _[Project - One For All](modulo-3/03-one-for-all)_
+- [x] _[Project - Docker Todo List](modulo-3/04-docker-todo-list)_
+- [x] _[Project - Mongodb Data Flights](modulo-3/05-mongodb-dataflights)_
 - [ ] _[Project - Commerce]()_
 - [ ] _[Project - Aggregations]()_
 - [ ] _[Project - Talker Manager]()_
