@@ -1,0 +1,140 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.login {
+  background-image: url('./images/background.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login h1 {
+  color: white;
+  font-size: 3em;
+  font-weight: 900;
+  height: 40vh;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.login-cadastrar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.login-cadastrar p:first-child {
+  border-bottom: 4px solid #0fa36b;
+  padding-bottom: 5px;
+}
+
+.form {
+  background-color: rgba(240, 240, 240, 0.85);
+  border-radius: 5% 5% 0 0;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: space-evenly;
+}
+
+.form-login {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.em-input {
+  padding: 15px;
+}
+
+.em-input, .em-input:focus {
+  background: transparent;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  outline: none;
+}
+
+.login-btn, .login-btn:disabled {
+  background-color: #0fa36b;
+  border-radius: 4px;
+  color: white;
+  font-weight: 900;
+  margin-top: 20px;
+  padding: 10px 50px;
+}
+
+.login-btn:disabled {
+  opacity: 0.5;
+}
+
+/* ----------------------- */
+.meals {
+  align-items: center;
+  background: #0fa36b;
+  color: #464646;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  justify-content: center;
+  width: 100%;
+}
+
+.rocksGlass {
+  animation: shake 1s infinite ease;
+  max-height: 80vh;
+}
+
+/*
+#iceLeft {
+  animation: clink .8s infinite ease;
+  opacity: 0.6;
+  transform-origin: 36px 66px;
+}
+
+#iceRight {
+  animation: clink .8s .2s infinite ease;
+  opacity: 0.6;
+  transform-origin: 60px 78px;
+}
+*/
+
+.meals > .logo {
+  animation: shake 1.5s infinite ease;
+  color: aliceblue;
+  font-family: Montserrat , sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+@keyframes shake {
+
+  0% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes clink {
+
+  0% {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(20deg);
+  }
+
+  100% {
+    transform: rotate(-10deg);
+  }
+}

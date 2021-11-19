@@ -1,0 +1,33 @@
+.main-recipes {
+  margin-bottom: 50px;
+}
+
+.category-btns {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px 50px;
+  margin: 0 10px 20px;
+}
+
+.category-btn, .category-btn:focus {
+  background: transparent;
+  border: none;
+  opacity: 0.6;
+  outline: none;
+}
+
+.category-btn:first-child {
+  border-bottom: 4px solid #0fa36b;
+  color: #0fa36b;
+  font-weight: 900;
+  opacity: 1;
+}
+
+.cards {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: 104px 104px 104px;
+  grid-template-rows: 130px;
+  margin: 0 10px;
+}

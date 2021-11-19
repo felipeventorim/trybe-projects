@@ -1,0 +1,26 @@
+.recipe-photo {
+  width: 360px;
+}
+
+.recomendation-list {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+
+.recomendation-card {
+  margin: 10px;
+}
+
+.recomendation-list img {
+  width: 150px;
+}
+
+.share-text {
+  display: none;
+}
+
+.start-recipe-btn {
+  bottom: 0;
+  position: fixed;
+}

@@ -1,0 +1,111 @@
+.main-details {
+  margin-bottom: 61px;
+}
+
+.polaroid {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.recipe-photo {
+  height: 160px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.title-line {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  position: relative;
+}
+
+.recipe-title-category {
+  flex: 1;
+}
+
+.recipe-title {
+  font-size: 2em;
+  font-weight: 500;
+  margin: 0;
+}
+
+.recipe-category {
+  color: #888;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.share-btn {
+  margin-right: 10px;
+  width: 30px;
+}
+
+.favorite-btn {
+  width: 30px;
+}
+
+.ingredients-list {
+  list-style: none;
+  padding-left: 15px;
+}
+
+.ingredients-list li:before {
+  content: "- ";
+}
+
+.subtitle:before {
+  color: #0fa36b;
+  content: attr(aria-label);
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.instructions {
+  padding-left: 15px;
+}
+
+.instructions p {
+  text-align: justify;
+  margin-right: 15px;
+}
+
+.recomendation-list {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+
+.recomendation-card {
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.recomendation-card img {
+  border-radius: 5px 5px 0 0;
+  width: 150px;
+}
+
+.recomendation-card div {
+  font-weight: 500;
+  padding: 5px 3px;
+}
+
+.share-text {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.start-recipe-btn {
+  background-color: #0fa36b;
+  border: none;
+  bottom: 0;
+  font-size: 1.3em;
+  padding: 15px 0;
+  position: fixed;
+  width: 100vw;
+}

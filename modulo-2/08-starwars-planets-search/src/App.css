@@ -1,0 +1,76 @@
+@import url('https://allfont.net/allfont.css?fonts=star-jedi') ;
+
+body {
+  background-color: #282c34;
+  color: #111;
+  margin: 0;
+}
+
+.header {
+  font-family: Star Jedi , arial , sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  text-shadow: 5px 5px 5px #aaa;
+  user-select: none;
+}
+
+.form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: center;
+}
+
+.input, .select, .btn {
+  background-color: whitesmoke;
+  box-shadow: 0 0 5px #aaa;
+  font-size: 1em;
+  margin: 5px;
+  padding: 7px;
+}
+
+.input-name {
+  width: 536.6px;
+}
+
+.btn {
+  background-color: #ccc;
+  border: none;
+  border-radius: 5%;
+}
+
+.btn:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.sort select {
+  width: 387.2px;
+}
+
+.loading {
+  color: white;
+  text-align: center;
+}
+
+table {
+  background-color: #ccc;
+  border: 2px solid #111;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: #444;
+  height: 70px;
+  padding: 0 5px;
+}
+
+table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+table tr:nth-child( 2n ) {
+  background-color: #888;
+}
