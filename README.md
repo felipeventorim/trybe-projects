@@ -8,39 +8,39 @@ _There are more than 1500 hours of training that covers fundamentals of web deve
 
 ## Fundamentals - Web Development :white_check_mark:
 
-- [x] _[Project - Lessons Learned](modulo-1/01-lessons-learned)_
-- [x] _[Project - Playground Functions](modulo-1/02-playground-functions)_
-- [x] _[Project - Pixels Art](modulo-1/03-pixels-art)_
-- [x] _[Project - Todo List](modulo-1/04-todo-list)_
-- [x] _[Project - Meme Generator](modulo-1/05-meme-generator)_
-- [x] _[Project - Color Guess](modulo-1/06-color-guess)_
-- [x] _[Project - Mistery Letter](modulo-1/07-mistery-letter)_
-- [x] _[Project - Trybewarts](modulo-1/08-trybewarts)_
-- [x] _[Project - JS Unit Tests](modulo-1/09-js-unit-tests)_
-- [x] _[Project - Zoo Functions](modulo-1/10-zoo-functions)_
-- [x] _[Project - Shopping Cart](modulo-1/11-shopping-cart)_
-- [x] _[Project - Jest Async e Mocking](modulo-1/12-jest-async-mocking)_
+- [x] _[Project - Lessons Learned](Fundamentals/01-lessons-learned)_
+- [x] _[Project - Playground Functions](Fundamentals/02-playground-functions)_
+- [x] _[Project - Pixels Art](Fundamentals/03-pixels-art)_
+- [x] _[Project - Todo List](Fundamentals/04-todo-list)_
+- [x] _[Project - Meme Generator](Fundamentals/05-meme-generator)_
+- [x] _[Project - Color Guess](Fundamentals/06-color-guess)_
+- [x] _[Project - Mistery Letter](Fundamentals/07-mistery-letter)_
+- [x] _[Project - Trybewarts](Fundamentals/08-trybewarts)_
+- [x] _[Project - JS Unit Tests](Fundamentals/09-js-unit-tests)_
+- [x] _[Project - Zoo Functions](Fundamentals/10-zoo-functions)_
+- [x] _[Project - Shopping Cart](Fundamentals/11-shopping-cart)_
+- [x] _[Project - Jest Async e Mocking](Fundamentals/12-jest-async-mocking)_
 
 ## Front-end Development :white_check_mark:
 
-- [x] _[Project - Movie Cards Library](modulo-2/01-movie-cards-library)_
-- [x] _[Project - Movie Cards Library Stateful](modulo-2/02-movie-cards-library-stateful)_
-- [x] _[Project - Movie Cards Library CRUD](modulo-2/03-movie-cards-library-crud)_
-- [x] _[Project - Frontend Online Store](modulo-2/04-frontend-online-store)_
-- [x] _[Project - React Testing Library](modulo-2/05-react-testing-library)_
-- [x] _[Project - Trybe Wallet](modulo-2/06-trybewallet)_
-- [x] _[Project - Trivia Game](modulo-2/07-trivia-react-redux)_
-- [x] _[Project - Star Wars Planet Search](modulo-2/08-starwars-planets-search)_
-- [x] _[Project - Tryunfo](modulo-2/09-tryunfo-beta)_ (Extra)
-- [x] _[Project - Recipes App](modulo-2/10-recipes-app)_
+- [x] _[Project - Movie Cards Library](Front-end/01-movie-cards-library)_
+- [x] _[Project - Movie Cards Library Stateful](Front-end/02-movie-cards-library-stateful)_
+- [x] _[Project - Movie Cards Library CRUD](Front-end/03-movie-cards-library-crud)_
+- [x] _[Project - Frontend Online Store](Front-end/04-frontend-online-store)_
+- [x] _[Project - React Testing Library](Front-end/05-react-testing-library)_
+- [x] _[Project - Trybe Wallet](Front-end/06-trybewallet)_
+- [x] _[Project - Trivia Game](Front-end/07-trivia-react-redux)_
+- [x] _[Project - Star Wars Planet Search](Front-end/08-starwars-planets-search)_
+- [x] _[Project - Tryunfo](Front-end/09-tryunfo-beta)_ (Extra)
+- [x] _[Project - Recipes App](Front-end/10-recipes-app)_
 
 ## Back-end Development :hourglass_flowing_sand:
 
-- [x] _[Project - All For One](modulo-3/01-all-for-one)_
-- [x] _[Project - Vocabulary Booster](modulo-3/02-vocabulary-booster)_
-- [x] _[Project - One For All](modulo-3/03-one-for-all)_
-- [x] _[Project - Docker Todo List](modulo-3/04-docker-todo-list)_
-- [x] _[Project - Mongodb Data Flights](modulo-3/05-mongodb-dataflights)_
+- [x] _[Project - All For One](Back-end/01-all-for-one)_
+- [x] _[Project - Vocabulary Booster](Back-end/02-vocabulary-booster)_
+- [x] _[Project - One For All](Back-end/03-one-for-all)_
+- [x] _[Project - Docker Todo List](Back-end/04-docker-todo-list)_
+- [x] _[Project - Mongodb Data Flights](Back-end/05-mongodb-dataflights)_
 - [ ] _[Project - Commerce]()_
 - [ ] _[Project - Aggregations]()_
 - [ ] _[Project - Talker Manager]()_
