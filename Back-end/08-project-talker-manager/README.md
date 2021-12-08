@@ -21,13 +21,6 @@ Neste projeto, verificamos se você é capaz de:
 
 Você vai desenvolver uma API de um CRUD (**C**reate, **R**ead, **U**pdate e **D**elete) de palestrantes. Você vai desenvolver alguns endpoints que irão ler e escrever em um arquivo, isso utilizando o módulo `fs`.
 
-## Desenvolvimento
-
-### Data de Entrega
-
-O projeto tem até a seguinte data: `05/01/2022 - 14:00h`. Para ser entregue a avaliação final.
-
----
 
 ## Lista de requisitos
 
